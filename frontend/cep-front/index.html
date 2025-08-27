@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="cepc" placeholder="Digite o CEP">
+    <button onclick="pegarCep()" class="botao">CONSULTAR</button>
+    <a id="msg">ERROR!</a>
+    <form id="form">
+        <input id="cep" type="text" placeholder="CEP" readonly>
+        <input id="logradouro" type="text" placeholder="Logradouro" readonly>
+        <input id="complemento" type="text" placeholder="Complemento" readonly>
+        <input id="unidade" type="text" placeholder="Unidade" readonly>
+        <input id="bairro" type="text" placeholder="Bairro" readonly>
+        <input id="localidade" type="text" placeholder="Localidade" readonly>
+        <input id="uf" type="text" placeholder="UF" readonly>
+        <input id="estado" type="text" placeholder="Estado" readonly>
+        <input id="regiao" type="text" placeholder="Regiao" readonly>
+        <input id="ibge" type="text" placeholder="IBGE" readonly>
+        <input id="gia" type="text" placeholder="GIA" readonly>
+        <input id="ddd" type="text" placeholder="DDD" readonly>
+        <input id="siafi" type="text" placeholder="SIAFI" readonly>
+    </form>
+     <script src="script.js"></script>
+</body>
+</html>
